@@ -1,5 +1,5 @@
 * {margin: auto;transition: 2s all;}
-body {background-image: linear-gradient(to bottom right, black, rgb(114, 11, 11));width:100vw;height:100vh;}
+body {background-image: linear-gradient(to bottom right, black, rgb(43, 2, 2), rgb(88, 4, 4), rgb(197, 0, 0));width:100vw;height:100vh;}
 ul,li,a {text-decoration:none;text-decoration-style:none;}
 a:link, a:visited {
   background-color: transparent;
@@ -25,7 +25,7 @@ a:hover, a:active {border-bottom: 2px solid white;}
 }
 #footer {
   text-transform:uppercase;
-  color: white;
+  color: rgb(255, 255, 255);
   font: outline;
   font-size: 150%;
   margin-bottom: 5%;
