@@ -1,9 +1,10 @@
 * {margin: auto;transition: 2s all;}
+body {background-image: linear-gradient(to bottom right, black, rgb(114, 11, 11));}
 ul,li,a {text-decoration:none;text-decoration-style:none;}
-header {display:flex;width:100vw;height:10vh;position:absolute;background-color:rgba(0,0,0,0.75);}
+header {display:flex;width:100vw;height:15vh;position:absolute;background-color:rgba(0,0,0,0);}
 header, nav {color:white;}
-header span {margin-left: 7.5%;}
-header span p {font-size: 170%;}
+header span {margin-left: 4%;}
+header span p {font-size: 200%;}
 span p, .parent p {font-family: 'Kaushan Script', cursive;}
 header nav {margin-right: 5%;}
 a:link, a:visited {
@@ -16,7 +17,13 @@ a:link, a:visited {
   border-bottom: 2px solid transparent;
 }
 a:hover, a:active {border-bottom: 2px solid white;}
-.parent {display: flex;width:100vw;height:90vh;background-color:red;}
+.parent {
+  display: flex;
+  width:100vw;
+  height:90vh;
+  /* background-color:red; */
+  
+}
 .parent p {
   text-transform:uppercase;
   color: white;
@@ -25,4 +32,4 @@ a:hover, a:active {border-bottom: 2px solid white;}
   margin-bottom: 5%;
   margin-right: 7%;
 }
-footer {display:flex;background-color:black;width:100vw;height:10vh;color:white}
+footer {display:flex;background-color:transparent;width:100vw;height:10vh;color:white}
