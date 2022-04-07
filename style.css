@@ -1,33 +1,52 @@
-* {margin: auto;transition: 2s all;}
-body {background-image: linear-gradient(to bottom right, black, rgb(43, 2, 2), rgb(88, 4, 4), rgb(197, 0, 0));width:100vw;height:100vh;}
-ul,li,a {text-decoration:none;text-decoration-style:none;}
-a:link, a:visited {
-  background-color: transparent;
-  color: white;
-  padding: 14px 25px;
-  text-align: center; 
-  text-decoration: none;
-  display: inline-block;
-  border-bottom: 2px solid transparent;
+* {
+    margin: auto;
+    transition: 1s all;
 }
-a:hover, a:active {border-bottom: 2px solid white;}
+body {
+    background-image: url("face_bw.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+ul, li, a {
+    text-decoration: none;
+    text-decoration-style: none;
+}
+a:link, a:visited {
+    background-color: transparent;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+a:hover, a:active {
+    border-bottom: 2px solid white;
+}
 #container {
-  display: flex;
-  width:100vw;
-  height:100vh;
-  color: white;
-  font-family: 'Kaushan Script', cursive;
+    background-color: rgb(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
 }
 #header {
-  margin-top: 3%;
-  margin-left: 5%;
-  font-size: 275%;
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 275%;
+}
+#title {
+    font-size: 500%;
 }
 #footer {
-  text-transform:uppercase;
-  color: rgb(255, 255, 255);
-  font: outline;
-  font-size: 150%;
-  margin-bottom: 5%;
-  margin-right: 7%;
+    text-transform: uppercase;
+    color: rgba(200, 0, 0, 0.8);
+    font-size: 150%;
+    margin-bottom: 5%;
+    margin-right: 7%;
 }
