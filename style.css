@@ -1,12 +1,10 @@
 :root {
     --smoky-black: #140c09ff;
     --platinum: #e6e7e9ff;
-    /* --white: #ffffffff; */
     --beige: #f4f4daff;
     --beige-2: #f6f2d7ff;
-    --smoky-black: #1a0a05ff;
+    --smoky-black-2: #1a0a05ff;
     --lavender-web: #dce4f4ff;
-    /* --white: #ffffffff; */
     --light-goldenrod-yellow: #fafad6ff;
     --light-goldenrod-yellow-2: #faf5d1ff;
     --rangoon-green: #0b0a07ff;
@@ -16,7 +14,7 @@
 }
 * {
     margin: auto;
-    transition: 1s all;
+    transition: 0.5s all;
     box-sizing: border-box;
 }
 ul, li, a {
@@ -40,7 +38,8 @@ body {
     height: 100vh;
 }
 div.wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     height: 100%;
 }
 aside {
@@ -49,22 +48,25 @@ aside {
     background-size: cover;
     background-position: top left;
     background-repeat: no-repeat;
-    display: flex;
-    flex-grow: 1;
-    flex-basis: 40%;
     font-family: 'Kaushan Script', cursive;
     color: var(--beige-2);
+    display: flex;
+    width: 100%;
     height: 100%;
 }
 .side {
     background-color: rgba(0, 0, 0, 0.5);
 }
+.side>p {
+    margin-bottom: 2%;
+    margin-right: 2%;
+    font-size: 100%;
+}
 main {
-    flex-grow: 1;
-    flex-basis: 60%;
-    color: var(--smoky-black);
+    color: var(--smoky-black-2);
     overflow-y: auto;
     height: 100vh;
+    background: none;
 }
 section.page {
     display: flex;
@@ -95,10 +97,11 @@ h2.title {
     font-size: 500%;
     font-family: sans-serif;
 }
-#footer {
+footer {
     text-transform: uppercase;
-    color: rgba(200, 0, 0, 0.8);
-    font-size: 150%;
-    margin-bottom: 2%;
-    margin-right: 7%;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: black;
+    display: flex;
+    width: 100%;
+    height: 10%;
 }
