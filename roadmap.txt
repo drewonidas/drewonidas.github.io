@@ -1,0 +1,24 @@
+Developer profile for Andrew Dlamnini, a software engineer from South Africa
+
+Development roadmap
+    Phase 1: Structure
+        * basic app structure []
+        * Responsive design implementation []
+
+    Phase 2: Appearence
+        * General aesthetics (colors, backgrounds, fonts) []
+        * Advanced aesthetics (background/color transitions) []
+
+    Phase 3: Animations
+        * Page transitions []
+        * Element animations []
+
+    Phase 4: touch ups
+        * Actual real world data []
+        * User reactions/testing []
+        * Bug fixing []
+
+    Phase 5 [bonus]: Dev History Showcase
+        * Basic structure []
+        * General aesthetics []
+        * Animations** []
