@@ -27,30 +27,30 @@ a:link, a:visited {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     border-bottom: 2px solid transparent;
 }
 a:hover, a:active {
     border-bottom: 2px solid white;
 }
 body {
-    overflow: hidden;
-    height: 100vh;
-}
-div.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    height: 100%;
-}
-aside {
     background-image: url("face_bw.webp");
     background-attachment: fixed;
     background-size: cover;
     background-position: top left;
     background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+}
+div.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+}
+aside {
     font-family: 'Kaushan Script', cursive;
     color: var(--beige-2);
-    display: flex;
+    display: none;
     width: 100%;
     height: 100%;
 }
@@ -104,4 +104,16 @@ footer {
     display: flex;
     width: 100%;
     height: 10%;
+}
+
+/* DESKTOP */
+
+@media only screen and (min-width: 768px) {
+    div.wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    aside {
+        display: flex;
+    }
 }
