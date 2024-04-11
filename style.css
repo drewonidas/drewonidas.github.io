@@ -27,7 +27,6 @@ a:link, a:visited {
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    /* display: inline-block; */
     border-bottom: 2px solid transparent;
 }
 a:hover, a:active {
@@ -41,6 +40,7 @@ body {
     background-repeat: no-repeat;
     overflow: hidden;
     height: 100vh;
+    width: 100vw;
 }
 div.wrapper {
     display: grid;
@@ -97,6 +97,19 @@ h2.title {
     font-size: 500%;
     font-family: sans-serif;
 }
+article {
+    max-width: 80%;
+    font-size: medium;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+li {
+    font-size: 500%;
+    padding: 5%;
+}
 footer {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.8);
@@ -107,7 +120,6 @@ footer {
 }
 
 /* DESKTOP */
-
 @media only screen and (min-width: 768px) {
     div.wrapper {
         display: grid;
